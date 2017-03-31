@@ -37,7 +37,7 @@ angular.module('simpleTests').controller('ProjetosController', function ($scope,
 					$scope.mensagemSucesso = data.mensagem;
 					//$scope.escondeFormulario();
 					//carregarProjetos();
-					$location.path('#/projetos');
+					$location.path('/projetos');
 				} else {
 					$scope.mensagemAviso = data.erro.mensagem;
 				}
